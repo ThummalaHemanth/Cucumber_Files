@@ -29,7 +29,7 @@ public class loginChecking {
 //	    throw new io.cucumber.java.PendingException();
 	}
 
-	@When("Enter valid username and password")
+	@When("Enter valid username and password in fields")
 	public void enter_valid_username_and_password() throws InterruptedException {
 	    // Write code here that turns the phrase above into concrete actions
 		w.manage().timeouts().implicitlyWait(Duration.ofSeconds(4));
